@@ -1,0 +1,56 @@
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td
+{
+    border: 0.1rem solid #d9b99b;
+    padding: 1rem;
+    text-align: center;
+}
+
+th
+{
+    background-color: #f4d7b5;
+}
+
+tr
+{
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+tr:hover
+{
+    background-color: #fff3e6;
+    box-shadow: 0 0 1rem rgba(255, 190, 140, 0.7);
+}
+
+img
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.team-email
+{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.team-email a
+{
+    color: #6f4e37;
+    text-decoration: none;
+}
+
+.team-email a:hover
+{
+    text-decoration: underline;
+}

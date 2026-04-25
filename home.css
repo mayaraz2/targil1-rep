@@ -1,0 +1,12 @@
+.hero
+{
+    display: grid;
+    gap: 1rem;
+    text-align: right;
+    justify-items: start;
+}
+
+.hero p
+{
+    max-width: 40rem;
+}

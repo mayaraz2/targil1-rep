@@ -1,0 +1,24 @@
+.services-list
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.services-list li
+{
+    background-color: #fff3e6;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 0.5rem rgba(255, 180, 120, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-list li:hover
+{
+    transform: scale(1.03);
+    box-shadow: 0 0 1rem rgba(255, 180, 120, 0.8);
+}
